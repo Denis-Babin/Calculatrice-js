@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: rgb(41, 41, 41);
+}
+
+div.main {
+    width: auto;
+    height: auto;
+    margin: auto;
+    margin-top: 10%;
+    max-width: 400px;
+}
+
+div#screen {
+    border: 1px solid black;
+    box-sizing: border-box;
+    height: 100px;
+    width: 400px;
+    background: white;
+    float: left;
+    text-align: right;
+    font-size: 42px;
+    font-family: monospace;
+    line-height: 100px;
+    color: black;
+}
+
+button {
+    float: left;
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    font-size: 32px;
+}
+
+button.input {
+    background: rgb(173, 6, 6);
+    color: white;
+}
+
+button:active {
+    background: white;
+    transition: 0.1s;
+    opacity: 0.5;
+}
